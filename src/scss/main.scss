@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+// Bootstrap mixins and functions
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Change variables here
+@import "style/variables";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Vendor
+@import "style/vendor";
+
+// style mixins & functions
+@import "style/mixins";
+@import "style/functions";
+
+// Utilities
+@import "style/reboot";
+@import "style/utilities";
+
+// Layout
+@import "style/layout";
+
+// Components
+@import "style/components";
+
+// Custom css
+@import "../scss/style/layout/detection";
+@import "../scss/style/layout/custom";

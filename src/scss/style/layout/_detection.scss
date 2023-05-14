@@ -1,0 +1,33 @@
+.new-header {
+    position: relative;
+    padding-top: $spacer * 4;
+    padding-bottom: $spacer * 2;
+    
+}
+.image-style1 {
+    z-index: 1;
+    position: absolute;
+    margin-left: 500px;
+    bottom: 360px;
+    width: 250px;
+    height: 150px;
+    
+}
+
+.image-style2 {
+    z-index: 1;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 750px;
+    bottom: 30px;
+    width: 300px;
+    
+    
+}
+
+.text-style-det{
+    
+    margin-left: 35px;
+    margin-right: 50px;
+    
+}
